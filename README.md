@@ -1,1 +1,8 @@
-# ISQA-8086-Team-1-
+# Team Bazinga
+
+# List of Members
+
+> * **Cale**
+> * **Ranjitha**
+> * **Archana**
+
