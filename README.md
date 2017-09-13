@@ -21,7 +21,7 @@
       to study the weather patterns we are subjected to live with. Taking on this data source could 
       show local weather patterns are not as bad compared other regions. 
       There are many possibilities with this data, because we are aware of complimentary data sets. 
-      This set and could prove to be a very interesting journey.
+      This set could prove to be a very interesting journey.
       
 > 3.) **Tobacco Use**
 
