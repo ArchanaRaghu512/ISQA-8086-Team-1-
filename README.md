@@ -14,7 +14,8 @@
       in Nebraska.This analysis has great potential for anybody who plans on staying in Nebraska for 
       a long time. There is the potential to identify issues in Nebraska education and possilby
       come up with creative ways to solve social issue.
-      
+  
+  
 > ## 2.) **Storm Events**
 
       Living in one of the most tornado prone areas of the United States, it is always interesting 
@@ -22,7 +23,11 @@
       show local weather patterns are not as bad compared other regions. 
       There are many possibilities with this data, because we are aware of complimentary data sets. 
       This set could prove to be a very interesting journey.
-      
+  
+  
 > ## 3.) **Tobacco Use**
 
+
 > ## 4.) **Nebraska Crime**
+
+
