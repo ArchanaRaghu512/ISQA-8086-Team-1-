@@ -21,7 +21,62 @@
 
 > Any parent who wants to make sure their children are provided the best education possible. This could have an impact on where people decide to live so they can get into the best school district. This information could become useful to the Nebraska Government in trying to figure out the education profile of the citizens of Nebraska.
 
-## [Link to our WorkPlan](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/WorkPlanAndRQ's/Team%20Project%20Plan%20%26%20Gantt%20Chart.pdf)
+## **Work Plan**
+[Link to our WorkPlan](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/WorkPlanAndRQ's/Team%20Project%20Plan%20%26%20Gantt%20Chart.pdf)
+* Phase 1: Project Setup (Due 9-20-17)
+  * Develop Project Plan
+  * Review Data
+  * Create Gantt Chart
+  * Develop Initial Research Question
+  * Create MD File
+
+* Phase 2: Data Cleaning and Documentation (Due 10-18-17)
+  * Find additional Datasources
+  * Description of Data sources (references)
+  * Licensing Information
+  * Meta Data
+  * Finalize research questions
+  * Known Issues (missing values, unstandardized content)
+  * Rational for completing missing data values
+  * Step by step description of data cleaning process
+
+* Phase 3: R scripts (Due 11-1-17)
+  * Research Qustion 1
+    * Generate statistical scripts with code comments
+    * basic descriptive statistics
+    * ANOVA
+  * Research Qustion 2
+    * Generate statistical scripts with code comments
+    * basic descriptive statistics
+    * ANOVA
+  * Research Qustion 3
+    * Generate statistical scripts with code comments
+    * basic descriptive statistics
+    * ANOVA
+
+* Phase 4: R Plots (Due 11-8-17)
+  * Create MD file
+  * Research Qustion 1
+    * Develop R Plots
+  * Research Qustion 2
+    * Develop R Plots
+  * Research Qustion 3
+    * Develop R Plots
+
+* Phase 5: Audience Persona (Due 11-26-17)
+  * Identify target audience to represent your persona
+
+* Phase 6: Presenation / Final Submission (Due 12-6-17)
+  * Build Powerpoint presentaiton
+  * Why question are important
+  * who should care
+  * where data came from
+  * How it was used
+  * Limitations of Data
+  * Interpretation of the Data
+  * what decision should be made based on analysis
+  * Previous project deliverables
+  * team member contributions
 
 ## Authors
 
