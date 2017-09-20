@@ -22,7 +22,7 @@
 > Any parent who wants to make sure their children are provided the best education possible. This could have an impact on where people decide to live so they can get into the best school district. This information could become useful to the Nebraska Government in trying to figure out the education profile of the citizens of Nebraska.
 
 ## **Work Plan**
-[Link to our WorkPlan](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/WorkPlanAndRQ's/Team%20Project%20Plan%20%26%20Gantt%20Chart.pdf)
+[Link to our Work Plan Gantt Chart](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/WorkPlanAndRQ's/Team%20Project%20Plan%20%26%20Gantt%20Chart.pdf)
 * Phase 1: Project Setup (Due 9-20-17)
   * Develop Project Plan - all members
   * Review Data - all members
