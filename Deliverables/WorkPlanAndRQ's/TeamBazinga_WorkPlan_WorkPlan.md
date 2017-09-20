@@ -24,59 +24,59 @@
 ## **Work Plan**
 [Link to our WorkPlan](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/WorkPlanAndRQ's/Team%20Project%20Plan%20%26%20Gantt%20Chart.pdf)
 * Phase 1: Project Setup (Due 9-20-17)
-  * Develop Project Plan
-  * Review Data
-  * Create Gantt Chart
-  * Develop Initial Research Question
-  * Create MD File
+  * Develop Project Plan - all members
+  * Review Data - all members
+  * Create Gantt Chart - Cale
+  * Develop Initial Research Question - all members
+  * Create MD File - Archana
 
 * Phase 2: Data Cleaning and Documentation (Due 10-18-17)
-  * Find additional Datasources
-  * Description of Data sources (references)
-  * Licensing Information
-  * Meta Data
-  * Finalize research questions
-  * Known Issues (missing values, unstandardized content)
-  * Rational for completing missing data values
-  * Step by step description of data cleaning process
+  * Find additional Datasources - all members
+  * Description of Data sources (references) - Archana
+  * Licensing Information - Cale
+  * Meta Data - Ranjitha
+  * Finalize research questions - all members
+  * Known Issues (missing values, unstandardized content) - Archana
+  * Rational for completing missing data values - Cale
+  * Step by step description of data cleaning process - Ranjitha
 
 * Phase 3: R scripts (Due 11-1-17)
-  * Research Qustion 1
+  * Research Qustion 1 - Archana
     * Generate statistical scripts with code comments
     * basic descriptive statistics
     * ANOVA
-  * Research Qustion 2
+  * Research Qustion 2 - Cale
     * Generate statistical scripts with code comments
     * basic descriptive statistics
     * ANOVA
-  * Research Qustion 3
+  * Research Qustion 3 - Ranjitha
     * Generate statistical scripts with code comments
     * basic descriptive statistics
     * ANOVA
 
 * Phase 4: R Plots (Due 11-8-17)
-  * Create MD file
-  * Research Qustion 1
+  * Create MD file - Archana
+  * Research Qustion 1 - Archana
     * Develop R Plots
-  * Research Qustion 2
+  * Research Qustion 2 - Cale
     * Develop R Plots
-  * Research Qustion 3
+  * Research Qustion 3 - Ranjitha
     * Develop R Plots
 
 * Phase 5: Audience Persona (Due 11-26-17)
-  * Identify target audience to represent your persona
+  * Identify target audience to represent your persona  - all members
 
 * Phase 6: Presenation / Final Submission (Due 12-6-17)
-  * Build Powerpoint presentaiton
-  * Why question are important
-  * who should care
-  * where data came from
-  * How it was used
-  * Limitations of Data
-  * Interpretation of the Data
-  * what decision should be made based on analysis
-  * Previous project deliverables
-  * team member contributions
+  * Build Powerpoint presentaiton - all members
+  * Why question are important - Archana
+  * Who should care - Cale
+  * Where data came from - Ranjitha
+  * How it was used - Archana
+  * Limitations of Data - Cale
+  * Interpretation of the Data - Ranjitha
+  * What decision should be made based on analysis - Cale
+  * Previous project deliverables - all members
+  * Team member contributions - all members
 
 ## Authors
 
