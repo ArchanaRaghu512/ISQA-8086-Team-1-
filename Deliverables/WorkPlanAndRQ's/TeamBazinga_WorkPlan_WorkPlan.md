@@ -23,7 +23,7 @@
 
 ## [Link to our WorkPlan](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/WorkPlanAndRQ's/Team%20Project%20Plan%20%26%20Gantt%20Chart.pdf)
 
-# Authors
+## Authors
 
 > * **Cale**
 > * **Ranjitha**
