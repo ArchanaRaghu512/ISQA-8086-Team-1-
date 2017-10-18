@@ -128,13 +128,13 @@ Rows: 113790
 
 ### Rationale
 
-** Identified: The “Year” Column had values like 20102011.
-Solution: We reformatted it to the following format “2010 – 2011”. ** 
+**Identified: The “Year” Column had values like 20102011.
+Solution: We reformatted it to the following format “2010 – 2011”.** 
 
-** Identified: The column “Graduation Pct” wasn’t clear.
-Solution: Renamed it to “Graduation Percentage” for better understanding. **
+**Identified: The column “Graduation Pct” wasn’t clear.
+Solution: Renamed it to “Graduation Percentage” for better understanding.**
 
-** Identified: There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”. **
+**Identified: There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”.**
 	
 ### Questions we can answer with Data
 
