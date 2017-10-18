@@ -71,13 +71,14 @@ Rows: 1245
 
 ### Rationale
 
-**Identified: The column “School” contained values “0”.
-Solution: It had no impact so we removed the column from the dataset.**
+**Identified** The column “School” contained values “0”.
+**Solution** It had no impact so we removed the column from the dataset.
 
-**Identified: The “Year” Column had values like 20102011.
-Solution: We reformatted it to the following format “2010 – 2011”.**	
+**Identified:** The “Year” Column had values like 20102011.
+**Solution:** We reformatted it to the following format “2010 – 2011”.
 	
 ### Questions we can answer with Data
+
 > We can we can interpret how the Attendance rates affect the dropout rates
 
 ## SET 3
@@ -113,11 +114,11 @@ Rows: 993
 
 ### Rationale
 
-**Identified: The column “School” contained values “0”.
-Solution: It had no impact so we removed the column from the dataset.**
+**Identified:** The column “School” contained values “0”.
+**Solution:** It had no impact so we removed the column from the dataset.
 
-**Identified: The “Year” Column had values like 20102011.
-Solution: We reformatted it to the following format “2010 – 2011”.**	
+**Identified:** The “Year” Column had values like 20102011.
+**Solution:** We reformatted it to the following format “2010 – 2011”.	
 
 ### Questions we can answer with Data
 
@@ -138,13 +139,13 @@ Rows: 113790
 
 ### Rationale
 
-**Identified: The “Year” Column had values like 20102011.
-Solution: We reformatted it to the following format “2010 – 2011”.** 
+**Identified:** The “Year” Column had values like 20102011.
+**Solution:** We reformatted it to the following format “2010 – 2011”. 
 
-**Identified: The column “Graduation Pct” wasn’t clear.
-Solution: Renamed it to “Graduation Percentage” for better understanding.**
+**Identified:** The column “Graduation Pct” wasn’t clear.
+**Solution:** Renamed it to “Graduation Percentage” for better understanding.**
 
-**Identified: There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”.**
+**Identified:** There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”.
 	
 ### Questions we can answer with Data
 
@@ -183,11 +184,11 @@ Rows: 993
 
 ### Rationale
 
-**Identified: The column “School” contained values “0”.
-Solution: It had no impact so we removed the column from the dataset.**
+**Identified:** The column “School” contained values “0”.
+**Solution:** It had no impact so we removed the column from the dataset.
 
-**Identified: The “Year” Column had values like 20102011.
-Solution: We reformatted it to the following format “2010 – 2011”.**
+**Identified:** The “Year” Column had values like 20102011.
+**Solution:** We reformatted it to the following format “2010 – 2011”.
 
 ### Questions we can answer with Data
 
