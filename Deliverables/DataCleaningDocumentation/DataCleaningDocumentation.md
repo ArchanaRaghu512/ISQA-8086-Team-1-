@@ -6,7 +6,7 @@
 
 ## Dataset Licensing Information
 
-> The Terms and Conditions page seems to be inactive on the main page, so no specific information regarding data usage could be found. I also checked the Privacy policy at "http://nep.education.ne.gov/privacy-policy/" and it gives a 404 error. There was nothing else I could find that would give me specific information in this general area. However, The Nebraska Department of Education is responsible for this data, which is a branch of the Nebraska Government, so I decided to go to the Nebraska.gov/policies page and found the following.
+The Terms and Conditions page seems to be inactive on the main page, so no specific information regarding data usage could be found. I also checked the Privacy policy at "http://nep.education.ne.gov/privacy-policy/" and it gives a 404 error. There was nothing else I could find that would give me specific information in this general area. However, The Nebraska Department of Education is responsible for this data, which is a branch of the Nebraska Government, so I decided to go to the Nebraska.gov/policies page and found the following.
 
 "Use of Site Information
 
@@ -43,7 +43,7 @@ So, we had to filter the details on common rows and fields.
 
 ### Dataset Name: Attendance Rate Sheet & Dropout Rate
 
-> **Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
+**Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2010 -2016.
 **Step 3:** The similar way we had filtered the type “DI” which is district, the year and had copied the filtered data to the new spreadsheet.
 **Step 4:** Merge the fields filtered from both the sheets into the new sheet.
@@ -76,6 +76,7 @@ We figured that the Dropout Rate sheet had information for the state and distric
 So, we had to filter the details on common rows and fields.
 
 ### Dataset Name: Teacher & Dropout Rate sheet.
+
 **Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
 
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2011 -2016.
@@ -127,6 +128,7 @@ Solution: Renamed it to “Graduation Percentage” for better understanding.**
 ** Identified: There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”**
 	
 ### Questions we can answer with Data
+
 > We can interpret which group or category of students have the highest or lowest Graduation count
 
 ## SET 5
@@ -138,6 +140,7 @@ We figured that the Dropout Rate sheet had information for the state and distric
 So, we had to filter the details on common rows and fields.
 
 ### Dataset Name: ELL & Dropout Rate sheet.
+
 **Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2011 -2016.
 **Step 3:** Repeat the same process on “Dropout rate” sheet.
@@ -152,6 +155,7 @@ Columns: 7
 Rows: 993
 
 ### Rationale
+
 **Identified: The column “School” contained values “0”.
 Solution: It had no impact so we removed the column from the dataset.**
 
@@ -159,6 +163,7 @@ Solution: It had no impact so we removed the column from the dataset.**
 Solution: We reformatted it to the following format “2010 – 2011”.**
 
 ### Questions we can answer with Data
+
 > We try to interpret whether the percentage of ELL in a school affect the dropout rate or not.
 
-## (Original Sample)[
+
