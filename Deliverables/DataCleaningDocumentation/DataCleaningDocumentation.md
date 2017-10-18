@@ -129,12 +129,12 @@ Rows: 113790
 ### Rationale
 
 ** Identified: The “Year” Column had values like 20102011.
-Solution: We reformatted it to the following format “2010 – 2011”.** 
+Solution: We reformatted it to the following format “2010 – 2011”. ** 
 
 ** Identified: The column “Graduation Pct” wasn’t clear.
-Solution: Renamed it to “Graduation Percentage” for better understanding.**
+Solution: Renamed it to “Graduation Percentage” for better understanding. **
 
-** Identified: There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”**
+** Identified: There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”. **
 	
 ### Questions we can answer with Data
 
@@ -151,9 +151,12 @@ So, we had to filter the details on common rows and fields.
 ### Dataset Name: ELL & Dropout Rate sheet.
 
 **Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
+
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2011 -2016.
 **Step 3:** Repeat the same process on “Dropout rate” sheet.
+
 **Step 4:** After filtering the type and year, copy the filtered value into a sheet. Omit the unrelated columns.
+
 **Step 5:** Add the Dropout rate from “Dropouts” Sheet and “ ELL Percentage” from ELL sheet to the new sheet 
 
 ### Meta Data
