@@ -73,7 +73,7 @@ The following configurations were done using Microsoft Excel 2013 version (15.0.
 
 ### Dataset Creation Process
 
-**Step 1)** First Download the Excel files from https://github.com/caleshawn/ISQA8086-AssignmentRepo
+**Step 1)** First Download the Excel files from [Link](https://github.com/ArchanaRaghu512/ISQA8086-Team1/tree/master/Deliverables/DataCleaningDocumentation/Original%20Datasets)
 
 - [Download “Nebraska School Information Part 1.xlsx”](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Original%20Datasets/Nebraska%20School%20Information%20Part%201.xlsx)
 
