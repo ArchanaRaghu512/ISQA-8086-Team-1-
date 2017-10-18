@@ -48,9 +48,13 @@ So, we had to filter the details on common rows and fields.
 
 ### Dataset Name: Attendance Rate Sheet & Dropout Rate
 
-**Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.   
+**Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier. 
+
+[Screenshot 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/2.png)
 
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e.from 2010 -2016.  
+
+[Screenshot 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/2.1.png)
 
 **Step 3:** The similar way we had filtered the type “DI” which is district, the year and had copied the filtered data to the new spreadsheet.   
 
@@ -88,10 +92,16 @@ So, we had to filter the details on common rows and fields.
 
 **Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
 
+[Screenshot 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/3.png) 
+
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2011 -2016.
 
+[Screenshot 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/3.1.png)
+
 **Step 3:** Repeat the same process on “Dropout rate” sheet 
+
 **Step 4:** After filtering the type and year, copy the filtered value into a sheet. Omit the unrelated columns.
+
 **Step 5:** Add the Dropout rate from “Dropouts” Sheet and “Percentage of teachers with Master’s Degree” from teacher’s sheet to the new sheet.
 	
 ### Meta Data
@@ -152,7 +162,12 @@ So, we had to filter the details on common rows and fields.
 
 **Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
 
+[Screenshot 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/5.png)
+
 **Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2011 -2016.
+
+[Screenshot 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/5.1.png)
+
 **Step 3:** Repeat the same process on “Dropout rate” sheet.
 
 **Step 4:** After filtering the type and year, copy the filtered value into a sheet. Omit the unrelated columns.
