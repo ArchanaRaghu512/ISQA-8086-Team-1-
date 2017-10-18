@@ -48,7 +48,8 @@ We first created a list of questions that we could possibly answer with this dat
 
 •	Increase or decrease in teacher’s salary considering urban Vs rural schools?
 
-•	[Free lunch statistic Additional Data is available](https://www.education.ne.gov/dataservices/data-reports/)
+•	Free lunch statistic Additional Data is available
+        [Link](https://www.education.ne.gov/dataservices/data-reports/)
 
 •	English Language Learners require smaller classes and more budget, higher educated teachers
 
@@ -72,7 +73,7 @@ The following configurations were done using Microsoft Excel 2013 version (15.0.
 
 ### Dataset Creation Process
 
-Step 1) First Download the Excel files from https://github.com/caleshawn/ISQA8086-AssignmentRepo
+**Step 1)** First Download the Excel files from https://github.com/caleshawn/ISQA8086-AssignmentRepo
 
 - [Download “Nebraska School Information Part 1.xlsx”](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Original%20Datasets/Nebraska%20School%20Information%20Part%201.xlsx)
 
@@ -80,15 +81,15 @@ Step 1) First Download the Excel files from https://github.com/caleshawn/ISQA808
 
 - Save to Desktop for easy retrieval
 
-Step 2) Open the two files you downloaded to your desktop
+**Step 2)** Open the two files you downloaded to your desktop
 - “Nebraska School Information Part 1.xlsx” contains the following tabs
 - Attendance Rate, Cohort, Dropouts, ELL, NeSA Math
 - “Nebraska School Information Part 2.xlsx” contains the following tabs
 - NeSA Reading, NeSA Science, NeSA Writing, Teacher
 
-Step 3) Before you do anything else on “Nebraska School Information Part 1.xlsx” go to File, then Save As. Name your ne file “Super Nebraska School Information”
+**Step 3)** Before you do anything else on “Nebraska School Information Part 1.xlsx” go to File, then Save As. Name your ne file “Super Nebraska School Information”
 
-Step 4) First verified all column headers in excel tab “NeSA Math”, “NeSA Reading”, “NeSA Science”, “NeSA Writing”, contained all the same column headers, in the same order.
+**Step 4)** First verified all column headers in excel tab “NeSA Math”, “NeSA Reading”, “NeSA Science”, “NeSA Writing”, contained all the same column headers, in the same order.
 
 1.	Type
 
@@ -120,7 +121,7 @@ Step 4) First verified all column headers in excel tab “NeSA Math”, “NeSA 
 
 15.	DataAsOf
 
-Step 5) All tabs appear to have the same data, so to make the Data easier to manager will combine the data from “NeSA Math”, “NeSA Reading”, “NeSA Science”, “NeSA Writing” into one.
+**Step 5)** All tabs appear to have the same data, so to make the Data easier to manager will combine the data from “NeSA Math”, “NeSA Reading”, “NeSA Science”, “NeSA Writing” into one.
 
 1) In Excel file “Super Nebraska School Information”, towards the bottom of the file click the “+” to create a new Tab
  
@@ -142,7 +143,7 @@ Step 5) All tabs appear to have the same data, so to make the Data easier to man
 
 9) Repeat process f-h for “NeSA Science” and “NeSA Writing” making sure to always paste the data into new rows and not to overwrite current rows. 
 
-Step 6) While both files (“Super Nebraska School Information” and “Nebraska School Information Part 2.xlsx”) are open go to “Nebraska School Information Part 2.xlsx” and right mouse click on tab “Teachers” you will see the following menu
+**Step 6)** While both files (“Super Nebraska School Information” and “Nebraska School Information Part 2.xlsx”) are open go to “Nebraska School Information Part 2.xlsx” and right mouse click on tab “Teachers” you will see the following menu
  
 [Screenshot 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.1.png)
  
@@ -152,13 +153,13 @@ Left mouse click on “Move or Copy…”
 
 Change the To Book: section to “Super Nebraska School Information”, highlight “move to end” and click the check box for “Create a copy” (should look like the image above). This will move a copy of the Teacher data so that you have all Data in 1 File. 
 
-Step 7) Close “Nebraska School Information Part 2.xlsx”, do not save any changes in case something gets screwed up and we have to start over. From here on we are going to try and work with “Super Nebraska School Information”
+**Step 7)** Close “Nebraska School Information Part 2.xlsx”, do not save any changes in case something gets screwed up and we have to start over. From here on we are going to try and work with “Super Nebraska School Information”
 
-Step 8) While on “Super Nebraska School Information” right click on the tab name “NeSA Math” and select the option to delete, then you will confirm that you want to delete. 
+**Step 8)** While on “Super Nebraska School Information” right click on the tab name “NeSA Math” and select the option to delete, then you will confirm that you want to delete. 
 
-Step 9) enough changes have happened take a moment to save your document. 
+**Step 9)** enough changes have happened take a moment to save your document. 
 
-Step 10) since a majority of question have to do with trends let’s look at how many years of test scores we have. 
+**Step 10)** since a majority of question have to do with trends let’s look at how many years of test scores we have. 
 
 1) Click on the “NeSA Data” tab to activate that worksheet. 
 
@@ -174,7 +175,7 @@ Step 10) since a majority of question have to do with trends let’s look at how
 
 5) Do this same process for all other Tabs of data (Attendance Rate, Cohort, Dropouts, ELL, Teachers) A few tabs might already have filters applied, so skip the tabs that do. 
 
-Step 11) Save your work
+**Step 11)** Save your work.
 
 ### Meta Data
 
