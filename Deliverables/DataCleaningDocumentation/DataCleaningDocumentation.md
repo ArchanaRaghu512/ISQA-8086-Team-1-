@@ -68,12 +68,16 @@ The following configurations were done using Microsoft Excel 2013 version (15.0.
 
 ## SET 1
 
+[Link to Set 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Set%201.xlsx)
+
 ### Dataset Creation Process
 
 Step 1) First Download the Excel files from https://github.com/caleshawn/ISQA8086-AssignmentRepo
 
-- [Download “Nebraska School Information Part 1.xlsx”]()
-- [Download “Nebraska School Information Part 2.xlsx”]()
+- [Download “Nebraska School Information Part 1.xlsx”](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Original%20Datasets/Nebraska%20School%20Information%20Part%201.xlsx)
+
+- [Download “Nebraska School Information Part 2.xlsx”](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Original%20Datasets/Nebraska%20School%20Information%20Part%202.xlsx)
+
 - Save to Desktop for easy retrieval
 
 Step 2) Open the two files you downloaded to your desktop
@@ -120,6 +124,8 @@ Step 5) All tabs appear to have the same data, so to make the Data easier to man
 
 1) In Excel file “Super Nebraska School Information”, towards the bottom of the file click the “+” to create a new Tab
  
+[Screenshot 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.png)
+
 2) The new tab should say “Sheet 1”. Double click on “Sheet 1”, rename the tab to “NeSA Data”.
 
 3) Click on tab “NeSA Math” left mouse click on cell A1, then press CTRL+SHIFT+END on the keyboard. This will activate cell A1 to O290497.
@@ -138,10 +144,13 @@ Step 5) All tabs appear to have the same data, so to make the Data easier to man
 
 Step 6) While both files (“Super Nebraska School Information” and “Nebraska School Information Part 2.xlsx”) are open go to “Nebraska School Information Part 2.xlsx” and right mouse click on tab “Teachers” you will see the following menu
  
-Left mouse click on “Move or Copy…”
+[Screenshot 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.1.png)
  
-Change the To Book: section to “Super Nebraska School Information”, highlight “move to end” and click the check box for “Create a copy” (should look like the image above)
-This will move a copy of the Teacher data so that you have all Data in 1 File. 
+Left mouse click on “Move or Copy…”
+
+[Screenshot 3](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.2.png)
+
+Change the To Book: section to “Super Nebraska School Information”, highlight “move to end” and click the check box for “Create a copy” (should look like the image above). This will move a copy of the Teacher data so that you have all Data in 1 File. 
 
 Step 7) Close “Nebraska School Information Part 2.xlsx”, do not save any changes in case something gets screwed up and we have to start over. From here on we are going to try and work with “Super Nebraska School Information”
 
@@ -157,8 +166,12 @@ Step 10) since a majority of question have to do with trends let’s look at how
 
 3) Then we will want to add filters so we can quickly view our data. On the “HOME” menu tab there is a button that looks like the image below. Click on it, and select “Filter” to add filters on your Column Headers.
  
+[Screenshot 4](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.3.png)
+
 4) If done correctly your column headers will have a small box with a downward arrow. See image below to confirm. 
  
+[Screenshot 5](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.4.png)
+
 5) Do this same process for all other Tabs of data (Attendance Rate, Cohort, Dropouts, ELL, Teachers) A few tabs might already have filters applied, so skip the tabs that do. 
 
 Step 11) Save your work
@@ -242,6 +255,8 @@ Since the filters have been applied to all the column headers if you click on th
 
 ## SET 2
 
+[Link to Set 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Set%202.xlsx)
+
 ### Dataset Creation Process
 
 > To form this dataset, we have taken common rows and fields (Type, School year, County, District, Agency name) and two unique fields i.e. attendance rate and Dropout rate from two excel sheets (“Attendance rate” and “Dropout rate”). 
@@ -286,6 +301,8 @@ Rows: 1245
 > We can we can interpret how the Attendance rates affect the dropout rates
 
 ## SET 3
+
+[Link to Set 3](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Set%203.xlsx)
 	
 ### Dataset Creation Process
 
@@ -332,6 +349,8 @@ Rows: 993
 
 ## SET 4
 
+[Link to Set 4](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Set%204.xlsx)
+
 ### Dataset Creation Process
 
 To form this dataset, we have taken the excel sheet “Cohort” and kept all the fields. The dataset is clean and filtering wasn’t required.
@@ -360,6 +379,8 @@ Rows: 113790
 > We can interpret which group or category of students have the highest or lowest Graduation count
 
 ## SET 5
+
+[Link to Set 5](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Set%205.xlsx)
 
 ### Dataset Creation Process
 
