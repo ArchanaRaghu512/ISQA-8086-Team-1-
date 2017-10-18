@@ -124,7 +124,7 @@ The following configurations were done using Microsoft Excel 2013 version (15.0.
 **Step 5)** All tabs appear to have the same data, so to make the Data easier to manager will combine the data from “NeSA Math”, “NeSA Reading”, “NeSA Science”, “NeSA Writing” into one.
 
 1) In Excel file “Super Nebraska School Information”, towards the bottom of the file click the “+” to create a new Tab
- 
+
 [Screenshot 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.png)
 
 2) The new tab should say “Sheet 1”. Double click on “Sheet 1”, rename the tab to “NeSA Data”.
@@ -144,7 +144,7 @@ The following configurations were done using Microsoft Excel 2013 version (15.0.
 9) Repeat process f-h for “NeSA Science” and “NeSA Writing” making sure to always paste the data into new rows and not to overwrite current rows. 
 
 **Step 6)** While both files (“Super Nebraska School Information” and “Nebraska School Information Part 2.xlsx”) are open go to “Nebraska School Information Part 2.xlsx” and right mouse click on tab “Teachers” you will see the following menu
- 
+
 [Screenshot 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/DataCleaningDocumentation/Screenshots/1.1.png)
  
 Left mouse click on “Move or Copy…”
