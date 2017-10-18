@@ -26,11 +26,16 @@ You may not use contact information provided on the Site for unauthorized purpos
 
 ## SET 1
 
-	Dataset Creation Process
+Dataset Creation Process
+
 Instruction on how to recreate data
-	Meta Data
+
+Meta Data
+
 List of column names and definition
-	Questions we can answer with Data
+	
+Questions we can answer with Data
+
 List the question we can answer with this data
 
 ## SET 2
@@ -43,11 +48,15 @@ So, we had to filter the details on common rows and fields.
 
 ### Dataset Name: Attendance Rate Sheet & Dropout Rate
 
-**Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.
-**Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e. from 2010 -2016.
-**Step 3:** The similar way we had filtered the type “DI” which is district, the year and had copied the filtered data to the new spreadsheet.
-**Step 4:** Merge the fields filtered from both the sheets into the new sheet.
-**Step 5:** And then added the unique columns attendance rate and dropout rate into it. 
+**Step 1:** Select the Type ST using the data filter option available in excel as mentioned earlier.   
+
+**Step 2:** The next criteria is the year. We selected the year that is common in both the sheet i.e.from 2010 -2016.  
+
+**Step 3:** The similar way we had filtered the type “DI” which is district, the year and had copied the filtered data to the new spreadsheet.   
+
+**Step 4:** Merge the fields filtered from both the sheets into the new sheet.  
+
+**Step 5:** And then added the unique columns attendance rate and dropout rate into it.   
 
 ### Meta Data
 
