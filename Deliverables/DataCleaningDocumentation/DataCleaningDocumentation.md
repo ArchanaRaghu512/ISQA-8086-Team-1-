@@ -211,15 +211,17 @@ This dataset has 15 columns with 120,350 records. The following is a list of att
 
 • DataAsOf: This is the date the values were recorded by Nebraska Department of Education. 
 
-### Identified Data Issues and Resolution
+#### Identified Data Issues and Resolution
 
 Since the filters have been applied to all the column headers if you click on the dropdown arrow you can view a list of all the values in that column. Items that should be given attention are the following:
 
 • Blank: this means that a cell is empty and is missing data
+
 • 0: zero could mean that data might have not been recorded, but need to check other variables to see if the value is legit.
+
 • -1: In database management this usually represents that data was not recorded. A -1 could be a correct value, if it is in context, however out of context probably means nothing was recorded. 
 
-### Accounting for the items listed above the following items were identified. 
+#### Accounting for the items listed above the following items were identified. 
 
 **Issue:** DataYears only contains values for the school year 2015-2016. 
 
@@ -282,20 +284,30 @@ So, we had to filter the details on common rows and fields.
 
 ### Meta Data
 
-This dataset, has 7 fields:
-Type, School year, County, District, Agency name, Dropout rate, Attendance rate.
-Columns: 7
-Rows: 1245
+This dataset has 7 columns with 1,245 records. The following is a list of attribute definitions.  
 
-### Rationale
+• Type: Values are “DI”, “SC”, and “ST”. This identifies if the row belongs to District, School, or State. 
 
-**Identified** The column “School” contained values “0”.
+• School Year: This is the school year the data was collected. 
 
-**Solution** It had no impact so we removed the column from the dataset.
+• County: This is the county code the school is located. 0 is assigned to Districts and State records. 
 
-**Identified:** The “Year” Column had values like 20102011.
+• District: Is the number assigned to the different school districts throughout Nebraska. 0 is assigned to State records.  
 
-**Solution:** We reformatted it to the following format “2010 – 2011”.
+• Agency Name: This is the name of the institution at the different levels State, District, School. 
+
+• Dropout Rate: This is the percentage of students that drop out of school. 
+
+• Attendance Rate: This is the percentage of students who are attending school. 
+
+### Identified Data Issues and Resolution 
+**Issue:** The column “School” contained values “0”. 
+
+**Resolution:** It had no impact so we removed the column from the dataset. 
+
+**Issue:** The “Year” Column had values like 20102011. 
+
+**Resolution:** We reformatted it to the following format “2010 – 2011”. 
 	
 ### Questions we can answer with Data
 
@@ -329,20 +341,31 @@ So, we had to filter the details on common rows and fields.
 	
 ### Meta Data
 
-This dataset has 7 fields:
-Type, School year, County, District, Agency name, Percentage of Teachers with Master’s Degrees, Dropout rate.
-Columns: 7
-Rows: 993
+This dataset has 7 columns with 993 records. The following is a list of attribute definitions. 
 
-### Rationale
+• Type: Values are “DI”, “SC”, and “ST”. This identifies if the row belongs to District, School, or State. 
 
-**Identified:** The column “School” contained values “0”.
+• School Year: This is the school year the data was collected. 
 
-**Solution:** It had no impact so we removed the column from the dataset.
+• County: This is the county code the school is located. 0 is assigned to Districts and State records. 
 
-**Identified:** The “Year” Column had values like 20102011.
+• District: Is the number assigned to the different school districts throughout Nebraska. 0 is assigned to State records.  
 
-**Solution:** We reformatted it to the following format “2010 – 2011”.	
+• Agency Name: This is the name of the institution at the different levels State, District, School. 
+
+• Percentage of Teachers with Master’s Degrees: This is the percent of teachers who have received a Master’s Degree.  
+
+• Dropout Rate: This is the percentage of students that drop out of school. 
+
+### Identified Data Issues and Resolution 
+
+**Issue:** The column “School” contained values “0”.
+
+**Resolution:** It had no impact so we removed the column from the dataset.
+
+**Issue:** The “Year” Column had values like 20102011.
+
+**Resolution:** We reformatted it to the following format “2010 – 2011”.	
 
 ### Questions we can answer with Data
 
@@ -358,22 +381,41 @@ To form this dataset, we have taken the excel sheet “Cohort” and kept all th
 	
 ### Meta Data
 
-This dataset has 11 Fields
-Type, School year, County, District, School, Agency name, Graduation Cohort, Cohort year, Description, Graduation Count, Graduation Percentage.
-Columns: 11
-Rows: 113790
+This dataset has 11 columns with 113,790 records. The following is a list of attribute definitions. 
 
-### Rationale
+• Type: Values are “DI”, “SC”, and “ST”. This identifies if the row belongs to District, School, or State. 
 
-**Identified:** The “Year” Column had values like 20102011.
+• School Year: This is the school year the data was collected. 
 
-**Solution:** We reformatted it to the following format “2010 – 2011”. 
+• County: This is the county code the school is located. 0 is assigned to Districts and State records. 
 
-**Identified:** The column “Graduation Pct” wasn’t clear.
+• District: Is the number assigned to the different school districts throughout Nebraska. 0 is assigned to State records.  
 
-**Solution:** Renamed it to “Graduation Percentage” for better understanding.**
+• School: is the numeric code that is assigned to different Schools in Nebraska. 
 
-**Identified:** There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”.
+• Agency Name: This is the name of the institution at the different levels State, District, School. 
+
+• Graduation Cohort: This represents a year of graduation. 
+
+• Cohort year: This is a numeric code that is associated with Graduation Cohort. 
+
+• Description: This is a student demographic (i.e. Male, Female, Ethnicity) 
+
+• Graduation Count: This is the total count of students graduating 
+
+• Graduation Percentage: This is the percentage of students that are graduating. 
+
+### Identified Data Issues and Resolution 
+
+**Issue:** The “Year” Column had values like 20102011.
+
+**Resolution:** We reformatted it to the following format “2010 – 2011”. 
+
+**Issue:** The column “Graduation Pct” wasn’t clear.
+
+**Resolution:** Renamed it to “Graduation Percentage” for better understanding.**
+
+**Issue:** There are certain values “-1” contained in “Graduation count” and “Graduation Percentage”.
 	
 ### Questions we can answer with Data
 
@@ -407,20 +449,31 @@ So, we had to filter the details on common rows and fields.
 
 ### Meta Data
 
-This dataset has 7 fields:
-Type, School year, County, District, Agency name, ELL Percentage, Dropout Rate.
-Columns: 7
-Rows: 993
+This dataset has 7 columns with 993 records. The following is a list of attribute definitions. 
 
-### Rationale
+• Type: Values are “DI”, “SC”, and “ST”. This identifies if the row belongs to District, School, or State. 
 
-**Identified:** The column “School” contained values “0”.
+• School Year: This is the school year the data was collected. 
 
-**Solution:** It had no impact so we removed the column from the dataset.
+• County: This is the county code the school is located. 0 is assigned to Districts and State records. 
 
-**Identified:** The “Year” Column had values like 20102011.
+• District: Is the number assigned to the different school districts throughout Nebraska. 0 is assigned to State records.  
 
-**Solution:** We reformatted it to the following format “2010 – 2011”.
+• Agency Name: This is the name of the institution at the different levels State, District, School. 
+
+• ELL Percentage: This is the percent of students that are English Language Learners. 
+
+• Dropout Rate: This is the percentage of students that drop out of school. 
+
+### Identified Data Issues and Resolution 
+
+**Issue:** The column “School” contained values “0”.
+
+**Resolution:** It had no impact so we removed the column from the dataset.
+
+**Issue:** The “Year” Column had values like 20102011.
+
+**Resolution:** We reformatted it to the following format “2010 – 2011”.
 
 ### Questions we can answer with Data
 
