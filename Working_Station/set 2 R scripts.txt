@@ -1,0 +1,32 @@
+set2 <- read_excel(file.choose())
+View(set2)
+set2
+setcln <- na.omit(set2)
+setcln
+summary(set2)
+View(set2$Type)
+set2$Type
+summary(set2$`School Year`)
+summary(set2$`Agency Name`)
+summary(set2$District)
+summary(set2$`Dropout Rate`)
+Summary(set2$`Attendance Rate`)
+Summary(set2$`Attendance Rate`)
+summary(set2$`Attendance Rate`)
+mxdetails <- set2[set2$`Dropout Rate` == max(set2$`Dropout Rate`) | set2$`Dropout Rate` == min(set2$`Dropout Rate`),]
+mxdetails
+yr <- split(set2,set2$`School Year`)
+summary(yr)
+countylist <- split(set2,set2$County)
+countylist
+set2atrate <- set2[set2$`Attendance Rate` > -1,]
+set2atrate
+mxcounty <- set2atrate[set2atrate$`Dropout Rate`==max(set2atrate$`Dropout Rate`)|set2atrate$`Dropout Rate`==min(set2atrate$`Dropout Rate`)]
+mxcounty <- set2atrate[set2atrate$`Dropout Rate` == max(set2atrate$`Dropout Rate`) | set2atrate$`Dropout Rate` == min(set2atrate$`Dropout Rate`),]
+mxcounty
+summary(set2atrate)
+mean(set2atrate$`Dropout Rate`)
+mx <- set2[set2$`Dropout Rate` == max(set2$`Dropout Rate`) | set2$`Dropout Rate` == min(set2$`Dropout Rate`),]
+typedi <- set2[set2$Type=="DI"]
+aov(typedi$`Dropout Rate`~typedi$`Attendance Rate`)
+savehistory("D:/Downloads/Fall 2017/DTD/set2.Rhistory")
