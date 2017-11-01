@@ -28,14 +28,14 @@ In this assignment we had done basic descriptive statistics on the five differen
 
 ### R scripts
 
-* [R script and analysis for Set 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20scripts/Data%20Set%201%20R%20code%20and%20Analysis.docx)
+* [R script and analysis for Set 1](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20Scripts%20for%20Datasets/Data%20Set%201%20R%20code%20and%20Analysis.docx)
 
-* [R script and analysis for Set 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20scripts/Data%20set2%20R%20code%20and%20analysis.docx)
+* [R script and analysis for Set 2](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20Scripts%20for%20Datasets/Data%20set2%20R%20code%20and%20analysis.docx)
 
-* [R script and analysis for Set 3](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20scripts/Data%20Set3%20R%20code%20and%20analysis.docx)
+* [R script and analysis for Set 3](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20Scripts%20for%20Datasets/Data%20Set3%20R%20code%20and%20analysis.docx)
 
-* [R script and analysis for Set 4](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20scripts/Set%204%20R%20Script%20and%20Analysis.docx)
+* [R script and analysis for Set 4](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20Scripts%20for%20Datasets/Set%204%20R%20Script%20and%20Analysis.docx)
 
-* [R script and analysis for Set 5](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20scripts/Set%205%20R%20Script%20and%20Analysis.docx)
+* [R script and analysis for Set 5](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/R%20Script/R%20Scripts%20for%20Datasets/Set%205%20R%20Script%20and%20Analysis.docx)
 
 
