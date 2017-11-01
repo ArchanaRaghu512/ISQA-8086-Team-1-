@@ -15,3 +15,5 @@ Get rid of the negative values. Have a clean data.
 Perform factor function on columns which are identity columns and are not intended for any math calculations.
 Creating susbset based on the column values for each dataset.
 
+### R scripts
+
