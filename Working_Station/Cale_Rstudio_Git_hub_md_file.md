@@ -129,3 +129,46 @@ The Box Plot has been overlayed with a violin graph to check for any Bimodal sit
 The results of the Boxplot appears to show the highest scoring demographic in the subject area of Writing is Asian students, followed by Females, followed by White, followed by Two or More Races.
 
 <img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot5-1.png" width="120%" />
+
+Set 4 Data Plot 1: Graduation Percentage Based on Category Others
+-----------------------------------------------------------------
+
+This plot represents the graduation percentage and count based the Other categories.
+
+From the graph we can come to a conclusion that the "Students eligible for free and reduced lunch" have the highest graduation percentage and count.
+
+<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set4PLot1.png" width="120%" />
+
+Set 4 Data Plot 2: Graduation Percentage Based on Category Ethnicity
+--------------------------------------------------------------------
+
+This plot represents the graduation percentage and count based the Other categories.
+
+From the graph we can come to a conclusion that the "Ethnic : Whites" have the highest graduation percentage and count.
+
+<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set4Plot2.png" width="120%" />
+
+Set 4 Data Plot 3: Graduation Percentage Based on Category Gender
+-----------------------------------------------------------------
+
+This plot represents the graduation percentage and count based on Gender.
+
+From the graph we can come to a conclusion that the "Male" and "Females" are almost but the males have a slightly high graduation percentage and count.
+
+<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set4Plot3.png" width="120%" />
+
+Set 5 Data Plot 1: Dropout Rate Vs ELL Percentage
+-------------------------------------------------
+
+This plot represents how the Dropout rate is affected by ELL Percentage
+
+From the graph we can come to a conclusion that the "Dropout Rate" of a school is high where the percentage of ELL is less and the Dropout Rate of the school is low where the ELL percentage is high. 
+
+<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set5Plot.png" width="120%" />
+
+
+
+
+
+
+
