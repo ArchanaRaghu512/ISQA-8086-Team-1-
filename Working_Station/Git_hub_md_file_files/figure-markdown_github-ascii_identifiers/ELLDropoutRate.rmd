@@ -1,0 +1,56 @@
+---
+title: "ELLVsDropoutRateGraph"
+author: "Archana Raghu"
+date: "11/7/2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+### Steps to create the Graduation Percentage based on Category graph
+
+### Load the required Libraries and install the required packages
+
+```{r}
+
+library(readxl)	
+
+library(ggrepel)
+
+library(ggplot2)
+
+```
+
+### Loading the dataset
+
+```{r}
+
+setwd("~/Desktop/Nebraska education ")
+Set_5 <- read_excel("~/Desktop/Nebraska education /Set 5.xlsx")
+ELL <- read_excel("Set 5.xlsx")
+ELL[ELL == '-1'] <- NA
+ELLcln <- na.omit(ELL)
+ELLcln[c("ELL Percentage","Dropout Rate")]
+DropRate <- ELLcln[c("ELL Percentage","Dropout Rate")]
+
+```
+
+### Basic Plots and ggplot to see how the percentage of ELL affects the dropout rate
+
+```{r}
+
+boxplot(DropRate$`ELL Percentage`~ DropRate$`Dropout Rate`)
+
+ggplot(DropRate, aes(x = `ELL Percentage`)) + geom_histogram()
+
+ggplot(DropRate, aes(x = `Dropout Rate`)) + geom_histogram()
+
+Plot7 <- ggplot(DropRate, aes(x = `Dropout Rate`, y = `ELL Percentage`)) + theme(legend.position = "top", axis.text = element_text(size = 6))
+
+### This plot shows how the Dropout Rate is affected by the ELL Percentage.
+
+plot(DropRate$`Dropout Rate`~DropRate$`ELL Percentage`, type="p", col="Red")
+
+###From the graph we can come to a conclusion that the "Dropout Rate" of a school is high where the percentage of ELL is less and the Dropout Rate of the school is low where the ELL percentage is high. 
+
+```
