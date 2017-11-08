@@ -1,4 +1,4 @@
-Set 1 Data Analysis
+Team Bazinga R Plot Data Analysis
 ================
 
 Set 1 Data Plot 1: All Scores by Subject
