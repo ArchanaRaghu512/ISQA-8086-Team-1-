@@ -145,7 +145,7 @@ This plot represents the graduation percentage and count based the Other categor
 
 From the graph we can come to a conclusion that the "Ethnic : Whites" have the highest graduation percentage and count.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set4Plot2.png" width="120%" />
+<img src="Images/Set4Plot2.png" width="120%" />
 
 Set 4 Data Plot 3: Graduation Percentage Based on Category Gender
 -----------------------------------------------------------------
@@ -154,7 +154,7 @@ This plot represents the graduation percentage and count based on Gender.
 
 From the graph we can come to a conclusion that the "Male" and "Females" are almost but the males have a slightly high graduation percentage and count.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set4Plot3.png" width="120%" />
+<img src="Images/Set4Plot3.png" width="120%" />
 
 Set 5 Data Plot 1: Dropout Rate Vs ELL Percentage
 -------------------------------------------------
@@ -163,11 +163,6 @@ This plot represents how the Dropout rate is affected by ELL Percentage
 
 From the graph we can come to a conclusion that the "Dropout Rate" of a school is high where the percentage of ELL is less and the Dropout Rate of the school is low where the ELL percentage is high. 
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set5Plot.png" width="120%" />
-
-
-
-
-
+<img src="Images/Set5Plot.png" width="120%" />
 
 
