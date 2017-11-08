@@ -136,7 +136,7 @@ This plot represents the graduation percentage and count based the Other categor
 
 From the graph we can come to a conclusion that the "Students eligible for free and reduced lunch" have the highest graduation percentage and count.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/Set4PLot1.png" width="120%" />
+<img src="Images/Set4PLot1.png" width="120%" />
 
 Set 4 Data Plot 2: Graduation Percentage Based on Category Ethnicity
 --------------------------------------------------------------------
