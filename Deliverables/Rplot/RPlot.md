@@ -7,7 +7,7 @@ Set 1 Data Plot 1: All Scores by Subject
 
 This plot represents the entire Set 1 data. As you will notice the grading scale for each subject is not identical, so we need to evaluate the subjects separetly by splitting the data. The graph depicts a Boxplot overlayied a Violin plot. Nothing can be determined by this graph, this will just be an inital level set of the data we are working with.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot%1-1.png" width="120%" />
+<img src="Images/plot%201-1.png" width="120%" />
 
 Set 1 Data Plot 2: Math scores by Student Demographic
 -----------------------------------------------------
@@ -37,7 +37,7 @@ The Box Plot has been overlayed with a violin graph to check for any Bimodal sit
 
 The results of the Boxplot appears to show the highest scoring demographic in the subject area of Mathmatics is Asian students, followed by White, followed by Males, followed by Females.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot2-1.png" width="120%" />
+<img src="Images/plot2-1.png" width="120%" />
 
 Set 1 Data Plot 3: Reading scores by Student Demographic
 --------------------------------------------------------
@@ -67,7 +67,7 @@ The Box Plot has been overlayed with a violin graph to check for any Bimodal sit
 
 The results of the Boxplot appears to show the highest scoring demographic in the subject area of Reading is White students, followed by Female, followed by Asian, followed by Two or More Races. Males came in 5th.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot3-1.png" width="120%" />
+<img src="Images/plot3-1.png" width="120%" />
 
 Set 1 Data Plot 4: Science scores by Student Demographic
 --------------------------------------------------------
@@ -97,7 +97,7 @@ The Box Plot has been overlayed with a violin graph to check for any Bimodal sit
 
 The results of the Boxplot appears to show the highest scoring demographic in the subject area of Science is White students and or Male students (there seems to be a tie), followed by Female, followed by Students eligible for a free and reduced lunch, followed by Hispanic. There also appears to be a significant reduction in the scores for Asian, English Language Learners, and Students served in migrant programs. The first quartile appears to be pulled to the bottom of the graph.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot4-1.png" width="120%" />
+<img src="Images/plot4-1.png" width="120%" />
 
 Set 1 Data Plot 5: Writing scores by Student Demographic
 --------------------------------------------------------
@@ -127,7 +127,7 @@ The Box Plot has been overlayed with a violin graph to check for any Bimodal sit
 
 The results of the Boxplot appears to show the highest scoring demographic in the subject area of Writing is Asian students, followed by Females, followed by White, followed by Two or More Races.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot5-1.png" width="120%" />
+<img src="Images/plot5-1.png" width="120%" />
 
 Set 4 Data Plot 1: Graduation Percentage Based on Category Others
 -----------------------------------------------------------------
@@ -164,29 +164,5 @@ This plot represents how the Dropout rate is affected by ELL Percentage
 From the graph we can come to a conclusion that the "Dropout Rate" of a school is high where the percentage of ELL is less and the Dropout Rate of the school is low where the ELL percentage is high. 
 
 <img src="Images/Set5Plot.png" width="120%" />
-
-
-### Research Question: Does the percentage of teachers with masters degree has an impact on Students Dropout Rate.
--------------------------------------------------
-
-#### Dataset-2 Plot 1: Percentage of teachers witih Masters Degree VS Dropout Rate.
--------------------------------------------------
-
-  From the discussion board one curious question which everyone wanted to know, was does the teachers with masters degree has an impact on students dropout rate.  This basic plot gives us a interpretation that there wasn't much impact beacuse of teachers who had masters degree.  But there was a little decreasing scattered variation in the dropout rate.
-  
-  <img src="Images/Rplot - Dropout rate.png" width="120%" />
-  
- ### Percentage of teachers witih Masters Degree VS Dropout rate for each year.
- -------------------------------------------------
-   The above graph gives us the description on the varying dropout Rate. And to give a representation of the year wise distribution had used ggplot and divided the data based on the year. IS shows that just for year 2014 the had a increased dropout rate compared to rest. This shows that the teachers with masters degree was not directly proportional to the dropout rate.
-   
-   <img src="Images/Rplot-Year.png" width="120%" />
-  
-  
- #### Dataset-3 Plot 1: Attendance rate VS Dropout rate.
- -------------------------------------------------
-  To figure out if the attendance rate of students was related to the dropout rate. Plotted a ggplot which indicates that for increasing attendance rate the dropout rate was decreasing. This shows that the students attendance rate was a reason for the dropout rate.
-  
-  <img src="Images/Rplot- Atnd Rate.png" width="120%" />
 
 
