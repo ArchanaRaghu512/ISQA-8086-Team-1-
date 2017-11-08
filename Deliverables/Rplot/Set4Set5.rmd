@@ -1,5 +1,5 @@
 ---
-title: "CategoryGraph"
+title: "Set4 Set5 Graph"
 
 author: "Archana Raghu"
 date: "11/7/2017"
@@ -14,11 +14,13 @@ output:
 ### Load the required Libraries and install the required packages
 
 ```{r}
+
 library(readxl)	
 
 library(ggrepel)
 
 library(ggplot2)
+
 ```
 
 ### Loading the dataset 4
@@ -32,6 +34,7 @@ Grad <- Graduation
 Grad[Grad == '-1'] <- NA
 GradSet <- na.omit(Grad)
 GradCln <- GradSet[c("Description","Graduation Count","Graduation Percentage")]
+
 ```
 
 ### Since there were around 13 description for all the students of a particular school, I have divided the dataset into three subsets based on their description.
@@ -39,6 +42,7 @@ GradCln <- GradSet[c("Description","Graduation Count","Graduation Percentage")]
 ### Creating subsets based on the category
 
 ```{r}
+
 ### Have grouped "Male" and "Female" description and created a subset Gender.
 
 Gender <- GradCln[GradCln$Description == "Male" | GradCln$Description == "Female",]
@@ -47,9 +51,10 @@ Gender <- GradCln[GradCln$Description == "Male" | GradCln$Description == "Female
 
 Ethnic <- GradCln[GradCln$Description == "Ethnic7 - Hispanic" | GradCln$Description == "Ethnic7 - American Indian/Alaska Native" | GradCln$Description == "Ethnic7 - Asian" | GradCln$Description == "Ethnic7 - Black or African American" | GradCln$Description == "Ethnic7 - Native Hawaiian or Other Pacific Islander" | GradCln$Description == "Ethnic7 - Black or African American" | GradCln$Description == "Ethnic7 - White" | GradCln$Description == "Ethnic7 - Two or More Races",]
 
-### Have grouped all theremaining descriptions and created a subset Others.
+### Have grouped all the remaining descriptions and created a subset Others.
  
 Others <- GradCln[GradCln$Description == "Students eligible for free and reduced lunch" | GradCln$Description == "Special Education Students" | GradCln$Description == "English Language Learners",]
+
 ```
 
 ### Basic Plots and ggplot for for the category Gender
@@ -65,6 +70,8 @@ plot(Gender$`Graduation Count`, type="l", col="Orange")
 Plot1 <- ggplot(Gender, aes(x = Description, y = `Graduation Percentage`)) + theme(legend.position = "top", axis.text = element_text(size = 6))
 
 (PLot1 <- Plot1 + geom_point(aes(color = `Graduation Count`), alpha = 0.5, size = 1.5, position = position_jitter(width = 0.25, height = 0)))
+
+### Represented the high and low values using different colors
 
 PLot1 + scale_x_discrete(name="Gender") + scale_color_continuous(name="",low="pink", high = "black")
 
@@ -92,6 +99,8 @@ Plot2 <- ggplot(Ethnic, aes(x = Description, y = `Graduation Percentage`)) + the
 
 (PLot3 <- Plot2 + geom_point(aes(color = `Graduation Count`), alpha = 0.5, size = 1.5, position = position_jitter(width = 0.25, height = 0)))
 
+### Represented the high and low values using different colors
+
 PLot3 + scale_x_discrete(name="Ethnicity") + scale_color_continuous(low="blue", high = "red")
 
 ### This plot shows the graduation percentage and count based on the the Ethnic categories.
@@ -118,6 +127,8 @@ Plot5 + geom_line(aes(color = Description))
 Plot5 <- ggplot(Others, aes(x = Description, y = `Graduation Percentage`)) + theme(legend.position = "top", axis.text = element_text(size = 6))
 
 (Plot6 <- Plot5 + geom_point(aes(color = `Graduation Count`), alpha = 0.5, size = 1.5, position = position_jitter(width = 0.25, height = 0)))
+
+### Represented the high and low values using different colors
 
 Plot6 + scale_x_discrete(name="Other Category") + scale_color_continuous(name="",low="Orange", high = "Black")
 
