@@ -128,4 +128,4 @@ The Box Plot has been overlayed with a violin graph to check for any Bimodal sit
 
 The results of the Boxplot appears to show the highest scoring demographic in the subject area of Writing is Asian students, followed by Females, followed by White, followed by Two or More Races.
 
-<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot5-1.png" width="120%" /> Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot5-1.png" width="120%" />
