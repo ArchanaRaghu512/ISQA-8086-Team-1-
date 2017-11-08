@@ -7,7 +7,7 @@ Set 1 Data Plot 1: All Scores by Subject
 
 This plot represents the entire Set 1 data. As you will notice the grading scale for each subject is not identical, so we need to evaluate the subjects separetly by splitting the data. The graph depicts a Boxplot overlayied a Violin plot. Nothing can be determined by this graph, this will just be an inital level set of the data we are working with.
 
-<img src="<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot%201-1.png" width="120%" />
+<img src="Git_hub_md_file_files/figure-markdown_github-ascii_identifiers/plot%1-1.png" width="120%" />
 
 Set 1 Data Plot 2: Math scores by Student Demographic
 -----------------------------------------------------
