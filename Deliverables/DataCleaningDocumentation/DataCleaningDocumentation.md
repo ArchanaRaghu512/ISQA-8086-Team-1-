@@ -177,6 +177,14 @@ Change the To Book: section to “Super Nebraska School Information”, highligh
 
 **Step 11)** Save your work.
 
+**Step 12)** Filter Subject column to "Writing", calculate the maximum value (7.44)
+
+**Step 13)** In column P enter a formula that takes the Standard Correct Percentage and divide that by 7.44. This will take the values and make a percentage value score that will match the other Subjec score values.
+
+**Step 14)** Copy column P and paste the values into the Standard Correct Percent column.
+
+**Step 15)** Once again save your work.
+
 ### Meta Data
 
 This dataset has 15 columns with 120,350 records. The following is a list of attribute definitions.
