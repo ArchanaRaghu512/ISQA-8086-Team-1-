@@ -5,9 +5,9 @@ contributorship.
 
 ## Team Members
 
-Archana Raghu
-Cale Marxsen
-Ranjitha Elaprolu
+- Archana Raghu
+- Cale Marxsen
+- Ranjitha Elaprolu
 
 ## Responsibility Matrix
 
