@@ -24,7 +24,7 @@ Our final repository contains the following contents which are updated based on 
 
 ## Presentation
 
-[Link to our Presentation Slides]
+[Link to our Presentation Slides](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/GitRepositoryPackage/TeamBazinga_NebraskaEducation_Presentation.pdf)
 
 ## Contributorship Summary
 
