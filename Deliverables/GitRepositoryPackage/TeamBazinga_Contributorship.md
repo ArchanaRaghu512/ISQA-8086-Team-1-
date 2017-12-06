@@ -11,4 +11,4 @@ Ranjitha Elaprolu
 
 ## Responsibility Matrix
 
-<img src="http://Images/Screen%20Shot%202017-12-06%20at%2011.41.02%20AM.png" width="120%" />
+<img src="Images/Screen Shot 2017-12-06 at 11.41.02 AM.png" width="120%" />
