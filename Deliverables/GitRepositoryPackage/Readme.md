@@ -1,8 +1,5 @@
 # Team Bazinga
 
-Brief but descriptive Readme.md that includes a license for your work, the names of the team
-members, and an overview of package contents,
-
 ## Team Members:
 
   * Archana Raghu
@@ -11,5 +8,26 @@ members, and an overview of package contents,
 
 ## Final Deliverables
 
-Our final repository contains the following modules which are updated based on the reviews and feedback obtained.
+Our final repository contains the following contents which are updated based on the reviews and feedback obtained.
+
+## Knitted HTML Documents
+
+[Link to the Knitted HTMl Documents](https://github.com/ArchanaRaghu512/ISQA8086-Team1/tree/master/Deliverables/GitRepositoryPackage/KnittedHTMLDocument)
+
+## Audience Persona
+
+[Link to the Audience Persona](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/GitRepositoryPackage/Team%20Bazinga_AudiencePersona.pdf)
+
+## Summary
+
+[Link to the Summary](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/GitRepositoryPackage/TeamBazinga_Summary.pdf)
+
+## Presentation
+
+[Link to our Presentation Slides]
+
+## Contributorship Summary
+
+[Link to our Contributorship Summary](https://github.com/ArchanaRaghu512/ISQA8086-Team1/blob/master/Deliverables/GitRepositoryPackage/TeamBazinga_Contributorship.md)
+
 
