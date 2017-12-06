@@ -1,0 +1,53 @@
+---
+title: "Final R Scripts & Plots"
+author: "Ranjitha"
+date: "December 5, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+## This plot is regarding the percentage of teacherrs with masters degreee in each district. From the plot we can also interpret the change in teachers who have masters degree. 
+
+```{r cars}
+q2 <- readxl::read_xlsx("Master.xlsx")
+pl2 <- ggplot(q2,aes(x=q2$`School Year`,y=q2$`Teachers with Masters Degree`))+geom_point() + facet_wrap(~q2$`Agency Name`)
+pl2 + labs(title="Teachers with Master's Degree - District wise",x="Year", y="% of Teachers with masters degree" ) + theme(plot.title = element_text(size = 20, face = "bold",color = "purple4"),axis.title.x = element_text(vjust = 10,size = 15),axis.title.y = element_text(size = 15))
+```
+
+```{r pressure, echo=FALSE}
+plot(pl2)
+```
+
+```{r cars}
+q4 <- readxl::read_xlsx("ques 2.xlsx")
+pl3 <- ggplot(q4,aes(x=`Attendance Rate`,y=`Dropout Rate`))
+pl3.1 <- pl3 + geom_point(aes(color=`Attendance Rate`)) + geom_smooth()
+pl3.1 + labs(title="Attendance Rate vs Dropout Rate") +theme(plot.title = element_text(size = 20, face = "bold",color = "brown3"),axis.title.x = element_text(vjust = 10,size = 15),axis.title.y = element_text(size = 15))
+```
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pl3.1)
+```
+
+```{r cars}
+q4 <- readxl::read_xlsx("ques 2.xlsx")
+pl4 <- ggplot(q4,aes(q4$`Attendance Rate`,q4$`Dropout Rate`)) + geom_point() + facet_wrap(~q4$`Agency Name`)
+pl4.1 <- pl4 + labs(title="Attendance Rate vs Dropout Rate", x="Attendance Rate", y="Dropout Rate") +theme(plot.title = element_text(size = 20, face = "bold",color = "orangered1"),axis.title.x = element_text(vjust = 10,size = 15),axis.title.y = element_text(size = 15))
+```
+
+```{r pressure, echo=FALSE}
+plot(pl4.1)
+```
+
