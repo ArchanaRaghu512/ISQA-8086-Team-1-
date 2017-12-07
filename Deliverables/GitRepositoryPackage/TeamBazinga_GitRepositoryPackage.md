@@ -12,7 +12,7 @@ Our final repository contains the following contents which are updated based on 
 
 ## Knitted HTML Documents
 
-[Link to the Knitted HTMl Documents](https://github.com/ArchanaRaghu512/ISQA8086-Team1/tree/master/Deliverables/GitRepositoryPackage/KnittedHTMLDocument)
+[Link to the Knitted HTML Documents](https://github.com/ArchanaRaghu512/ISQA8086-Team1/tree/master/Deliverables/GitRepositoryPackage/KnittedHTMLDocument)
 
 ## Audience Persona
 
